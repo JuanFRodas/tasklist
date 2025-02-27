@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #120a77;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    background-color: #fff;
+    margin-top: 18vh;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    padding: 5vw;
+    border-radius: 8px;
+}
+
+.contenedorInput{
+    display: flex;
+    gap: 3vw;
+}
+
+#tarea{
+    width: 100%;  
+    background-color: #eafaf1; 
+    border: 2px solid #48bd71; 
+    border-radius: 5px; 
+    padding: 8px 12px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+#tarea:focus {
+    border-color: #3aa35f;
+    box-shadow: 0 0 5px rgba(72, 189, 113, 0.5); }
+
+#agregar {
+    background-color: #48bd71; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#agregar:hover {
+    background-color: #3aa35f; }
+
+#lista{
+    margin: 0;
+    padding: 0;
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    flex: 1;
+}
+
+#lista li{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    text-align:left;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 8px; 
+    border: 1px solid #d9d9d9;
+    padding: 4px 12px 4px 8px;
+}
+#lista li div {
+    display: flex;
+    align-self: stretch; 
+    margin: -4px -12px -4px 0px;
+}
+
+#lista li button{ 
+    
+    width: 8vw;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #dc3545;
+    transition: transform 0.3s ease-in-out; 
+}
+
+#lista li button:hover {
+    background-color: #d84c4c; 
+}
+  
